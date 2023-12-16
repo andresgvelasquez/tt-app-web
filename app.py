@@ -2,11 +2,12 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+
+st.header('Conjunto de datos de anuncions de venta de coches') # Encabezado
+
 car_data = pd.read_csv('vehicles_us.csv') # Leer el dataframe vehicles_us
 hist_checkbox = st.checkbox('Construir histograma') # Crear un checkbox para el histograma
 scatter_checkbox = st.checkbox('Construir gráfico de dispersión') # Crear un checkbox para el gráfico de dispersión
-
-st.header('Conjunto de datos de anuncions de venta de coches') # Encabezado
 
 if hist_checkbox: # Al hacer click en el checkbox del histograma
     # Escribir un mensaje
