@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-car_data = pd.read_csv('notebooks/vehicles_us.csv') # Leer el dataframe vehicles_us
+car_data = pd.read_csv('vehicles_us.csv') # Leer el dataframe vehicles_us
 hist_checkbox = st.checkbox('Construir histograma') # Crear un checkbox para el histograma
 scatter_checkbox = st.checkbox('Construir gráfico de dispersión') # Crear un checkbox para el gráfico de dispersión
 
