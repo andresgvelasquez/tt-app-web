@@ -1,5 +1,5 @@
 # tt-app-web
-Proyecto 6 del curso de TripleTen: desarrollar una aplicación web
+Proyecto 5 del curso de TripleTen: desarrollar una aplicación web
 
 Este proyecto contiene un conjunto de datos de anuncio de ventas de coches. El enfoque del proyecto no se centra en el conjunto de datos ni en el análisis. 
 
