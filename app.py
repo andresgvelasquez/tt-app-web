@@ -1,7 +1,6 @@
 import pandas as pd
-import streamlit as st
 import plotly.express as px
-
+import streamlit as st
 
 st.header('Conjunto de datos de anuncios de venta de coches') # Encabezado
 
@@ -28,4 +27,3 @@ if scatter_checkbox: # Al hacer click en el checkbox del gráfico de dispersión
 
     # Mostrar el gráfico de dispersión Plotly intercativo
     st.plotly_chart(fig, use_container_width=True)
-
